@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="website icon" type="png" href="images/Pentabyte_Logo.png">
+    <script defer src="login-page.js"></script>
+    <title>Log in</title>
+</head>
+<body class="login-page">
+    <header>
+        <h3><a href="index.html">PENTABYTE</a></h3>
+        <nav id="navbar">
+            <ul>
+                <li>
+                    <a href="how-it-works.html" class="nav-link">How it works</a>
+                </li>
+                <li>
+                    <a href="about-us.html" class="nav-link">About Us</a>
+                </li>
+                <li>
+                    <a href="login-page.html" class="nav-link">Log In</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-holder">
+        <img src="images/user-login-icon.png" alt="User login icon">
+        <h1 id="login-header">USER LOGIN</h1>
+        
+        <div id="login-error-msg-holder">
+          <p id="login-error-msg">Invalid username and/or password</p>
+        </div>
+        
+<!---->
+        <form id="login-form">
+          <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+          <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+          <input type="submit" value="Login" id="login-form-submit">
+        </form>
+      
+      </main>
+
+    <footer class="footer">
+        <p>
+            Pamantasan ng Lungsod ng Maynila<br>
+            Department of Computer Engineering<br>
+            S.Y. 2022 - 2023
+        </p>
+    </footer>
+    
+</body>
+</html>
